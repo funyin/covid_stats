@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">COVID Stats</string>
+    <string name="countries">lande</string>
+    <string name="cases">gevalle</string>
+    <string name="deaths">Sterftes</string>
+    <string name="tests">toetse</string>
+    <string name="updatedEvery">Elke 15 minute word opgedateer</string>
+    <string name="selectMyCountry">Kies My land</string>
+    <string name="none">Geen</string>
+    <string name="view_more">Sien meer</string>
+    <string name="connection_Message">Maak seker dat u aan die internet gekoppel is</string>
+    <string name="loading_message">Laai ... \\n Kry statistieke ...</string>
+    <string name="mnew">nuwe</string>
+    <string name="active">aktiewe</string>
+    <string name="critical">kritieke</string>
+    <string name="recovered">verhaal</string>
+    <string name="total">totale</string>
+    <string name="active_cases">Aktiewe gevalle:</string>
+</resources>

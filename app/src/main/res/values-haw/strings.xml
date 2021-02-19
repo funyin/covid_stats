@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="countries">Kahawai</string>
+    <string name="cases">Nā ʻōlā</string>
+    <string name="deaths">ʻOhina</string>
+    <string name="tests">Hoʻopau</string>
+    <string name="updatedEvery">Hana ʻia i kēlā me kēia 15 mau minuke</string>
+    <string name="selectMyCountry">E koho i koʻu ʻāina</string>
+    <string name="none">ʻAʻohe</string>
+    <string name="view_more">Nānā hou aʻe</string>
+    <string name="connection_Message">E ʻoluʻolu e hōʻoia ʻia e pili ana ʻoe i ka Pūnaewele</string>
+    <string name="loading_message">Ke lawe nei ...</string>
+    <string name="mnew">Hou</string>
+    <string name="active">Kaiola</string>
+    <string name="critical">Kūpono</string>
+    <string name="recovered">Hoʻolimalima</string>
+    <string name="total">Pau loa</string>
+    <string name="active_cases">Nā Mea Hana Hou:</string>
+</resources>

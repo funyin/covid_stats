@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">COVID Stats</string>
+    <string name="countries">Des pays</string>
+    <string name="cases">Étuis</string>
+    <string name="deaths">Décès</string>
+    <string name="tests">Les tests</string>
+    <string name="updatedEvery">Mis à jour toutes les 15 minutes</string>
+    <string name="selectMyCountry">Sélectionnez mon pays</string>
+    <string name="none">Aucun</string>
+    <string name="view_more">Voir plus</string>
+    <string name="connection_Message">Veuillez vous assurer que vous êtes connecté à Internet</string>
+    <string name="loading_message">Chargement ...    Obtention de statistiques ...</string>
+    <string name="mnew">Nouveau</string>
+    <string name="active">Actif</string>
+    <string name="critical">Critique</string>
+    <string name="recovered">Rétabli</string>
+    <string name="total">Total</string>
+    <string name="active_cases">Mga Aktibong Kaso:</string>
+</resources>

@@ -1,0 +1,128 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/secondary_text_light</item>
+        <item name="android:fontFamily">@font/freesans</item>
+    </style>
+
+    <style name="ToolBarTitleStyle">
+        <item name="android:fontFamily">@font/balonku_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToolBarSubtitleStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="MyCountrySingleColumn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="MyCountrySingleColumnRel">
+        <item name="android:layout_width">85dp</item>
+        <item name="android:layout_height">85dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/detail_circle</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="MyCountryTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:autoSizeTextType" tools:targetApi="o">uniform</item>
+    </style>
+
+    <style name="MyCountryValue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:autoSizeTextType" tools:targetApi="o">uniform</item>
+    </style>
+
+    <style name="DetailCon">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="DetailConFrame1">
+        <item name="android:background">@drawable/detail_circle</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+
+    <style name="DetailConFrame1.Alt">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="DetailConFrame1Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="DetailConFrame2">
+        <item name="android:background">@drawable/detail_value</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">50dp</item>
+        <item name="android:layout_marginEnd">50dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="DetailConFrame2Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@android:color/secondary_text_light</item>
+    </style>
+
+    <style name="LoaderContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:contextClickable" tools:targetApi="m">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:eventsInterceptionEnabled">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">?attr/actionBarSize</item>
+        <item name="android:background">#D9FFFFFF</item>
+    </style>
+</resources>

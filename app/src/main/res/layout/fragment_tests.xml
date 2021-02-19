@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".TestsFragment">
+
+    <RelativeLayout style="@style/DetailCon">
+
+        <FrameLayout style="@style/DetailConFrame1">
+
+            <TextView
+                style="@style/DetailConFrame1Text"
+                android:text="@string/total"/>
+
+        </FrameLayout>
+
+        <FrameLayout style="@style/DetailConFrame2">
+
+            <TextView
+                android:id="@+id/testsTotal"
+                style="@style/DetailConFrame2Text"
+                tools:text="+30" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

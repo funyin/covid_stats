@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">COVID Stats</string>
+    <string name="deaths">Fallecidos</string>
+    <string name="countries">Países</string>
+    <string name="cases">Casos</string>
+    <string name="tests">Pruebas</string>
+    <string name="updatedEvery">Actualizado cada 15 minutos</string>
+    <string name="selectMyCountry">Selecciona mi pais</string>
+    <string name="none">Ninguna</string>
+    <string name="view_more">Ver más</string>
+    <string name="connection_Message">Asegúrese de estar conectado a Internet</string>
+    <string name="loading_message">Cargando ...    Obteniendo estadísticas ...</string>
+    <string name="mnew">Nuevo</string>
+    <string name="active">Activo</string>
+    <string name="critical">Crítico</string>
+    <string name="recovered">Recuperado</string>
+    <string name="total">Total</string>
+    <string name="active_cases">Casos activos:</string>
+</resources>

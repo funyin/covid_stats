@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".CasesFragment">
+
+    <RelativeLayout
+        style="@style/DetailCon">
+
+        <FrameLayout
+            style="@style/DetailConFrame1">
+
+            <TextView
+                style="@style/DetailConFrame1Text"
+                android:text="@string/mnew"
+                android:textColor="#fff"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/DetailConFrame2">
+
+            <TextView
+                android:id="@+id/casesNew"
+                style="@style/DetailConFrame2Text"
+                tools:text="+30"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/DetailCon">
+
+        <FrameLayout
+            style="@style/DetailConFrame2">
+
+            <TextView
+                android:id="@+id/casesActive"
+                style="@style/DetailConFrame2Text"
+                tools:text="+30" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/DetailConFrame1.Alt">
+
+            <TextView
+                style="@style/DetailConFrame1Text"
+                android:text="@string/active"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/DetailCon">
+
+        <FrameLayout
+            style="@style/DetailConFrame1">
+
+            <TextView
+                style="@style/DetailConFrame1Text"
+                android:text="@string/critical"
+                android:textColor="#fff"
+                android:textSize="28sp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/DetailConFrame2">
+
+            <TextView
+                android:id="@+id/casesCritical"
+                style="@style/DetailConFrame2Text"
+                tools:text="295" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/DetailCon">
+
+        <FrameLayout
+            style="@style/DetailConFrame2">
+
+            <TextView
+                android:id="@+id/casesRecovered"
+                style="@style/DetailConFrame2Text"
+                tools:text="76964" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/DetailConFrame1.Alt">
+
+            <TextView
+                style="@style/DetailConFrame1Text"
+                android:text="@string/recovered"
+                android:textSize="20sp"
+                android:autoSizeTextType="uniform"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/DetailCon">
+
+        <FrameLayout
+            style="@style/DetailConFrame1">
+
+            <TextView
+                style="@style/DetailConFrame1Text"
+                android:text="@string/total"
+                android:textColor="#fff"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/DetailConFrame2">
+
+            <TextView
+                android:id="@+id/casesTotal"
+                style="@style/DetailConFrame2Text"
+                tools:text="81669" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

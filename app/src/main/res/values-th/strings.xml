@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">COVID Stats</string>
+    <string name="countries">Pratheṣ̄</string>
+    <string name="cases">krṇī</string>
+    <string name="deaths">p̄hū̂ s̄eīy chīwit</string>
+    <string name="tests">kār thds̄xb</string>
+    <string name="updatedEvery">xạpdet thuk 15 nāthī</string>
+    <string name="selectMyCountry">leụ̄xk pratheṣ̄ k̄hxng c̄hạn</string>
+    <string name="none">mị̀mī</string>
+    <string name="view_more">dū pheìmteim</string>
+    <string name="connection_Message">pord trwc s̄xb ẁā khuṇ cheụ̄̀xm t̀x kạb xinthexr̒nĕt</string>
+    <string name="loading_message">kảlạng h̄old...    kảlạng rạb s̄t̄hiti...</string>
+    <string name="mnew">H̄ım̀</string>
+    <string name="active">khl̀xngkhæl̀w</string>
+    <string name="critical">wikvti</string>
+    <string name="recovered">kū̂ khụ̄n</string>
+    <string name="total">rwm</string>
+    <string name="active_cases">p̄hū̂ p̀wy thī̀ mī cheụ̄̂x xyū̀:</string>
+</resources>

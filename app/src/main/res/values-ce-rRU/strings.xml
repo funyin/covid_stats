@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">COVID Stats</string>
+    <string name="countries">strany</string>
+    <string name="cases">sluchai</string>
+    <string name="deaths">Letal\'nyye iskhody</string>
+    <string name="tests">testy</string>
+    <string name="updatedEvery">Obnovlyayetsya kazhdyye 15 minut</string>
+    <string name="selectMyCountry">Vyberite moyu stranu</string>
+    <string name="none">Nikto</string>
+    <string name="view_more">Posmotret\' yeshcho</string>
+    <string name="connection_Message">Pozhaluysta, ubedites\', chto vy podklyucheny k Internetu</string>
+    <string name="loading_message">Zagruzka ...    Polucheniye statistiki ...</string>
+    <string name="mnew">novyy</string>
+    <string name="active">aktivnyy</string>
+    <string name="critical">kriticheskiy</string>
+    <string name="recovered">Vosstanovlennyye</string>
+    <string name="total">Vsego</string>
+    <string name="active_cases">Aktivnyye sluchai [zabolevaniya:</string>
+</resources>

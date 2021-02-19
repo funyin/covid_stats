@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">COVID Stats</string>
+
+    <string name="countries">Countries:</string>
+    <string name="cases">Cases</string>
+    <string name="deaths">Deaths</string>
+    <string name="tests">Tests</string>
+    <string name="updatedEvery">Updated every 15 minutes</string>
+    <string name="selectMyCountry">Select My Country</string>
+    <string name="none">None</string>
+    <string name="view_more">View More</string>
+    <string name="connection_Message">Please Make Sure You Are Connected To The Internet</string>
+    <string name="loading_message">Loading...\n Getting Statistics...</string>
+    <string name="mnew">New</string>
+    <string name="active">Active</string>
+    <string name="critical">Critical</string>
+    <string name="recovered">Recovered</string>
+    <string name="total">Total</string>
+    <string name="active_cases">Active Cases:</string>
+
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountryActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginBottom="45dp"
+            app:titleTextColor="@android:color/white"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/collapseFlag"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimaryDark"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax"
+                tools:src="@drawable/ng" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#80000000" />
+
+            <TextView
+                android:id="@+id/lastUpdated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_marginStart="30dp"
+                android:layout_marginBottom="4dp"
+                tools:text="25th May, 5:15pm"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                toolstitle="Nigeria"
+                app:titleMarginStart="42dp"
+                app:titleTextColor="@android:color/white" />
+            <ImageView
+                android:id="@+id/arrowBack"
+                android:onClick="backCliked"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_back_arrow"
+                app:layout_collapseMode="pin"
+                android:layout_gravity="start|top"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/ctab"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabRippleColor="@color/colorPrimary"
+        app:tabTextColor="@android:color/black">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/cviewPager"
+                android:layout_width="match_parent"
+                android:layout_height="658dp" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <RelativeLayout
+        android:id="@+id/connectionInfo"
+        style="@style/LoaderContainer">
+
+        <ImageView
+            android:id="@+id/mconInfoImage"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_back_arrow"
+            android:tint="@color/colorPrimaryDark"
+            android:layout_marginTop="60dp"
+            android:rotation="140"
+            android:stateListAnimator="@anim/load_anim"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="40dp"
+            android:lineHeight="70dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="@font/balonku_regular"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:text="@string/connection_Message" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/loadIndicator"
+        style="@style/LoaderContainer">
+
+        <ImageView
+            android:id="@+id/mloadImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_bacteria"
+            android:stateListAnimator="@anim/load_anim"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:lineHeight="70dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="@font/balonku_regular"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:text="@string/loading_message" />
+
+
+    </RelativeLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="ca-app-pub-2943553509013283/1365901144"
+        android:layout_gravity="bottom|center_horizontal">
+    </com.google.android.gms.ads.AdView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

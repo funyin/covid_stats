@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">COVID Stats</string>
+    <string name="countries">Guó bié</string>
+    <string name="cases">ànlì</string>
+    <string name="deaths">sǐwáng rénshù</string>
+    <string name="tests">cèyàn</string>
+    <string name="updatedEvery">měi 15 fēnzhōng gēngxīn yīcì</string>
+    <string name="selectMyCountry">xuǎnzé wǒ de guójiā</string>
+    <string name="none">méiyǒu</string>
+    <string name="view_more">chákàn gèng duō</string>
+    <string name="connection_Message">qǐng quèbǎo nín yǐ liánjiē dào Internet</string>
+    <string name="loading_message">zhèngzài jiāzài...   huòqǔ tǒngjì xìnxī...</string>
+    <string name="mnew">Xīn</string>
+    <string name="active">huóxìng</string>
+    <string name="critical">wéijí</string>
+    <string name="recovered">yǐ huīfù</string>
+    <string name="total">zǒng</string>
+    <string name="active_cases">Xiàn yǒu bìnglì:</string>
+</resources>

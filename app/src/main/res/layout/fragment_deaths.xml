@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".DeathsFragment">
+
+
+    <RelativeLayout
+        style="@style/DetailCon">
+
+        <FrameLayout
+            style="@style/DetailConFrame1">
+
+            <TextView
+                style="@style/DetailConFrame1Text"
+                android:text="@string/mnew"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/DetailConFrame2">
+
+            <TextView
+                android:id="@+id/deathsNew"
+                style="@style/DetailConFrame2Text"
+                tools:text="+30"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/DetailCon">
+
+        <FrameLayout
+            style="@style/DetailConFrame2">
+
+            <TextView
+                android:id="@+id/deathsTotal"
+                style="@style/DetailConFrame2Text"
+                tools:text="+30" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/DetailConFrame1.Alt">
+
+            <TextView
+                style="@style/DetailConFrame1Text"
+                android:text="@string/total"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

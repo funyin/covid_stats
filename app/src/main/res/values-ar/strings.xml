@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">COVID Stats</string>
+    <string name="countries">buldan</string>
+    <string name="cases">alhalat</string>
+    <string name="deaths">halat alwafa</string>
+    <string name="tests">alaikhtibarat</string>
+    <string name="updatedEvery">tahdith kl 15 daqiqatan</string>
+    <string name="selectMyCountry">hadad baladiun</string>
+    <string name="none">la yujad</string>
+    <string name="view_more">eard almazid</string>
+    <string name="connection_Message">yrja alta\'akud min \'anak mutasil bial\'iintarinat</string>
+    <string name="loading_message">tahmil ...    alhusul ealaa \'iihsayiyat ...</string>
+    <string name="mnew">jadid</string>
+    <string name="active">nashit</string>
+    <string name="critical">haraj</string>
+    <string name="recovered">taeafaa</string>
+    <string name="total">majmue</string>
+    <string name="active_cases">alhalat almusabat halia:</string>
+</resources>

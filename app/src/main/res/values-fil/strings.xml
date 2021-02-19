@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="countries">Mga Bansa</string>
+    <string name="cases">Mga Kaso</string>
+    <string name="deaths">Kamatayan</string>
+    <string name="tests">Mga Pagsubok</string>
+    <string name="updatedEvery">Nai-update tuwing 15 minuto</string>
+    <string name="selectMyCountry">Piliin ang Aking Bansa</string>
+    <string name="none">Wala</string>
+    <string name="view_more">Tingnan ang Higit Pa</string>
+    <string name="connection_Message">Mangyaring Siguraduhin na Nakakonekta Ka Sa Internet</string>
+    <string name="loading_message">Kumakarga ...    Pagkuha ng Istatistika ...</string>
+    <string name="mnew">Bago</string>
+    <string name="active">Aktibo</string>
+    <string name="critical">Mapanganib</string>
+    <string name="recovered">Gumaling</string>
+    <string name="total">Kabuuan</string>
+    <string name="active_cases">Mga Aktibong Kaso:</string>
+</resources>
